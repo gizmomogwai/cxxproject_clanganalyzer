@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "cxxproject_clanganalyzer"
   gem.require_paths = ["lib"]
   gem.version       = CxxprojectClanganalyzer::VERSION
+
+  gem.add_dependency 'cxx'
 end
